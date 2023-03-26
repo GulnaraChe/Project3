@@ -10,5 +10,6 @@ public class Main {
             bonus = 0;
         }
         System.out.println(bonus);
+        System.out.println(amount + bonus);
     }
 }
