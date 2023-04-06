@@ -9,7 +9,11 @@ public class Main {
         } else {
             bonus = 0;
         }
+        System.out.println("Сумма покупки");
+        System.out.println(amount);
+        System.out.println("Бонус за покупку");
         System.out.println(bonus);
+        System.out.println("Итоговый счет");
         System.out.println(amount + bonus);
     }
 }
